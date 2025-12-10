@@ -195,3 +195,4 @@
     (add-mindmap (text->input (get-input "input-field")))
     (ocall! ta "addEventListener" "input" on-input-change)))
 
+(init)
